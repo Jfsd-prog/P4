@@ -3,6 +3,8 @@ body {
     padding: 0;
     background: #FFF;
     overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 a,
@@ -816,7 +818,13 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/la-chouette-agence-banniere1920.jpg");
+}
+
+@media screen and (max-width: 801px) {
+.bg-banniere {
+    background-image: url("img/la-chouette-agence-banniere800.jpg");
+}
 }
 
 .bg-presentation {
