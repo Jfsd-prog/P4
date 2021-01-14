@@ -1,3 +1,10 @@
 div#bloc-4-portfolio img {
     width: 100%;
 }
+
+
+
+.bloc, .bloc-fill-screen .fill-bloc-top-edge, .bloc-fill-screen .fill-bloc-bottom-edge	{
+    padding-left : none;
+    padding-right : none;
+}
